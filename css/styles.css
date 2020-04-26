@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'arial_ossetianregular';
+    src: url('../Fonts/Ariai_regular/arial_regular-webfont.eot');
+    src: url('../Fonts/Ariai_regular/arial_regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Ariai_regular/arial_regular-webfont.woff') format('woff'),
+        url('../Fonts/Ariai_regular/arial_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.clear{
+    clear:both;
+}
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+body {
+    font-family: arial, sans-serif;
+    background-color: #fafafa;
+
+}
+
+body:hover a {
+    text-decoration: none;
+}
+
+.main-header {
+    min-width: 500px;
+    padding-top: 20px;
+}
+
+.button-tel {
+    background-color: #2fc90a;
+    margin-left: 40px;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(7, 60, 3, 0.49);
+
+}
+
+.button-tel:hover {
+    background-color: #1f9502;
+}
+
+.contact-site li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.site-navigation {
+    margin: 20px 0;
+}
+
+.site-navigation li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-section h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.line {
+    width: 40px;
+    height: 2px;
+    background-color: #aaa2a2;
+    margin: 10px auto 20px auto;
+}
+
+.advantages {
+    min-height: 350px;
+}
+
+.advantages-list {
+    display: flex;
+}
+
+.advantages-list li {
+    list-style: none;
+    margin: 20px 40px;
+}
+
+.advantages-icon p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.advantages-icon .tick_icon {
+    margin: 0 auto;
+}
+
+.tick_icon {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #aaa2a2;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.advantages-icon h3 {
+    text-align: center;
+}
+
+.sentence {
+    background-color: #f7f7f8;
+    min-height: 300px;
+}
+
+.sentence-icon img {
+    height: 160px;
+    width: 100%;
+}
+
+.sentence-icon .button {
+    background-color: #2fc90a;
+    margin-left: 60px;
+    width: 120px;
+    height: 30px;
+    color: #ffffff;
+    display: block;
+    padding-left: 12px;
+    box-shadow: 0 0 5px rgba(7, 60, 3, 0.49);
+}
+
+.main-logo {
+    width: 100%;
+    height: 400px;
+}
+
+.sentence-icon h4 {
+    text-align: center;
+}
+
+.portfolio {
+    min-height: 400px;
+    margin-top: 60px;
+}
+
+.icon-portfolio {
+    height: 160px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.icon-portfolio img {
+    height: 160px;
+    width: 100%;
+}
+
+
+.all-works .button {
+    width: 350px;
+    margin: 20px auto;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #2fc90a;
+    display: block;
+    padding-left: 120px
+}
+
+.article {
+    min-height: 500px;
+    background-color: #f4e6e6;
+    overflow: hidden;
+}
+
+.article a {
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.demo {
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+}
+
+.list-works .button {
+    width: 140px;
+    height: 30px;
+    margin: 10px 0px 10px 10px;
+}
+
+.consultation {
+    min-height: 100px;
+    background-color: #f8f2f2;
+    padding-top: 30px;
+    background-color: #2fc90a;
+}
+
+.consultation .button {
+    height: 50px;
+    width: 230px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #f8f2f2;
+    color: #0f0000;
+    font-size: 20px;
+    padding-top: 7px;
+}
+
+.footer {
+    min-height: 200px;
+    background-color: #417605;
+}
+
+.button {
+    background-color: #2fc90a;
+}
+
+.button:hover {
+    background-color: #1f9502;
+}
+
+.kichen {
+    width: 650px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.kichen img {
+    height: 200px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.67);
+}
+
+.text-kichen-1 {
+    max-width: 200px;
+    padding-left: 10px;
+}
+.kupe{
+   width:650px;
+    background-color:#fff;
+    overflow: hidden;
+    padding: 10px;
+    
+}
+.kupe img {
+    height:250px;
+    width: 250px;
+    float: left;
+}
+.text-kupe{
+  width:330px;
+    float: right;
+}
